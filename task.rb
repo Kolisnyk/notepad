@@ -3,7 +3,7 @@ class Task < Post
   def initialize
     super
 
-    @url = ''
+    @due_date = Time.now
   end
 
   def read_from_console
