@@ -8,7 +8,7 @@ class Link < Post
     puts "Введите адрес ссылки"
     @url = STDIN.gets.chomp
 
-    puts "Описание ссілки"
+    puts "Описание ссылки"
     @text = STDIN.gets.chomp
     end
   def to_strings
